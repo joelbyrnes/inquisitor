@@ -32,11 +32,14 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'django.contrib.admin',
+    'django_admin_bootstrapped',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'inquisitor',
 ]
 
 MIDDLEWARE = [
@@ -67,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'inquisitor.wsgi.application'
+WSGI_APPLICATION = 'inqproject.wsgi.application'
 
 
 # Database
