@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'inquisitor.urls'
+ROOT_URLCONF = 'inqproject.urls'
 
 TEMPLATES = [
     {
